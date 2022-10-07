@@ -1,0 +1,6 @@
+2021;Enero;41.35;-1.64;50067 Calatayud;27
+2022;Febrero;41.35;-1.64;50067 Calatayud;27
+2022;Marzo;41.35;-1.64;50067 Calatayud;27
+2022;Enero;41.35;-1.64;50067 Calatayud;27
+2021;Enero;41.35;-1.64;50067 Calatayud;27
+

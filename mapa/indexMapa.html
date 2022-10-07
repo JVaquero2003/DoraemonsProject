@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Quick Start - Leaflet</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+		integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+		integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container1">
+		<div id="map" class="map"></div>
+		<div class="selector">
+			<input class="btn btn-primary" type="submit" onclick="pasarParametro()" value="SUBMIT" />
+			<input class="btn btn-primary" type="submit" onclick="pasarParametro2()" value="POSSIBLE BUSHFIRES" />
+			<script src="js.js"></script>
+			<select class="form-select" name="select" id="select">
+				<option value="" selected>ALL</option>
+				<option value="Enero">January</option>
+				<option value="Febrero">February</option>
+				<option value="Marzo">Mach</option>
+				<option value="Abril">April</option>
+				<option value="Mayo">May</option>
+				<option value="Junio">June</option>
+				<option value="Julio">July</option>
+				<option value="Agosto">August</option>
+				<option value="Septiembre">September</option>
+				<option value="Octubre">Octuber</option>
+				<option value="Noviembre">November</option>
+				<option value="Diciembre">December</option>
+			</select>
+			<select class="form-select" name="select2" id="select2">
+				<option value="" selected>ALL</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+			</select>
+		</div>
+	</div>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</html>
